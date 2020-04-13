@@ -476,8 +476,6 @@ HH
 Text GLabel 8450 3900 1    50   Input ~ 0
 MM
 Wire Wire Line
-	7100 4250 9250 4250
-Wire Wire Line
 	8350 3850 8350 4650
 Wire Wire Line
 	8450 3900 8450 4650
@@ -703,23 +701,6 @@ Wire Wire Line
 	7950 4650 7950 4550
 Connection ~ 7950 4550
 Wire Wire Line
-	7950 4550 8050 4550
-Wire Wire Line
-	8050 4650 8050 4550
-Connection ~ 8050 4550
-Wire Wire Line
-	8050 4550 8150 4550
-Wire Wire Line
-	8150 4650 8150 4550
-Connection ~ 8150 4550
-Wire Wire Line
-	8150 4550 8250 4550
-Wire Wire Line
-	8250 4650 8250 4550
-Connection ~ 8250 4550
-Wire Wire Line
-	8250 4550 8650 4550
-Wire Wire Line
 	8650 4650 8650 4550
 Connection ~ 8650 4550
 Wire Wire Line
@@ -776,4 +757,57 @@ Wire Wire Line
 	10250 4550 10650 4550
 Wire Wire Line
 	5350 1900 5350 2700
+$Comp
+L Connector:AVR-ISP-6 J2
+U 1 1 5E96D5D8
+P 4450 4450
+F 0 "J2" V 4033 4500 50  0000 C CNN
+F 1 "AVR-ISP-6" V 4124 4500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" V 4200 4500 50  0001 C CNN
+F 3 " ~" H 3175 3900 50  0001 C CNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4250 9250 4250
+Text GLabel 5100 4550 2    50   Input ~ 0
+RESET
+Text GLabel 5100 4450 2    50   Input ~ 0
+SCK
+Text GLabel 5100 4350 2    50   Input ~ 0
+MOSI
+Text GLabel 5100 4250 2    50   Input ~ 0
+MISO
+Text GLabel 4350 3750 1    50   Input ~ 0
++5V
+Text GLabel 4350 5050 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4350 3750 4350 3950
+Wire Wire Line
+	4350 4850 4350 5050
+Wire Wire Line
+	4850 4550 5100 4550
+Wire Wire Line
+	5100 4450 4850 4450
+Wire Wire Line
+	4850 4350 5100 4350
+Wire Wire Line
+	5100 4250 4850 4250
+Text GLabel 7550 4250 1    50   Input ~ 0
+RESET
+Wire Wire Line
+	7950 4550 8650 4550
+Text GLabel 8250 4100 1    50   Input ~ 0
+SCK
+Text GLabel 8050 4100 1    50   Input ~ 0
+MOSI
+Text GLabel 8150 4100 1    50   Input ~ 0
+MISO
+Wire Wire Line
+	8050 4100 8050 4650
+Wire Wire Line
+	8150 4650 8150 4100
+Wire Wire Line
+	8250 4100 8250 4650
 $EndSCHEMATC
