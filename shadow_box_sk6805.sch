@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:shadow_box_sk6805-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1550 2650 1550
 $Comp
-L MCU_Microchip_ATtiny:ATtiny88-AU U1
+L shadow_box_sk6805-rescue:ATtiny88-AU-MCU_Microchip_ATtiny U1
 U 1 1 5E93A77C
 P 8750 5250
 F 0 "U1" V 8175 5250 50  0000 C CNN
@@ -758,7 +757,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 1900 5350 2700
 $Comp
-L Connector:AVR-ISP-6 J2
+L shadow_box_sk6805-rescue:AVR-ISP-6-Connector J2
 U 1 1 5E96D5D8
 P 4450 4450
 F 0 "J2" V 4033 4500 50  0000 C CNN

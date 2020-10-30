@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:shadow_box_sk6805-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,7 @@ GND
 Text HLabel 3150 3900 0    50   Input ~ 0
 DOUT
 $Comp
-L LED:SK6805_1515 D49
+L shadow_box_sk6805-rescue:SK6805_1515-LED D49
 U 1 1 5E9308FE
 P 4200 1150
 AR Path="/5E93474C/5E9308FE" Ref="D49"  Part="1" 
@@ -37,7 +36,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D50
+L shadow_box_sk6805-rescue:SK6805_1515-LED D50
 U 1 1 5E933144
 P 5050 1150
 AR Path="/5E93474C/5E933144" Ref="D50"  Part="1" 
@@ -51,7 +50,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D52
+L shadow_box_sk6805-rescue:SK6805_1515-LED D52
 U 1 1 5E935D94
 P 5050 1950
 AR Path="/5E93474C/5E935D94" Ref="D52"  Part="1" 
@@ -65,7 +64,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D51
+L shadow_box_sk6805-rescue:SK6805_1515-LED D51
 U 1 1 5E935D9A
 P 4200 1950
 AR Path="/5E93474C/5E935D9A" Ref="D51"  Part="1" 
@@ -79,7 +78,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D53
+L shadow_box_sk6805-rescue:SK6805_1515-LED D53
 U 1 1 5E93D656
 P 4200 3100
 AR Path="/5E93474C/5E93D656" Ref="D53"  Part="1" 
@@ -93,7 +92,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D54
+L shadow_box_sk6805-rescue:SK6805_1515-LED D54
 U 1 1 5E93D65C
 P 5050 3100
 AR Path="/5E93474C/5E93D65C" Ref="D54"  Part="1" 
@@ -107,7 +106,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D56
+L shadow_box_sk6805-rescue:SK6805_1515-LED D56
 U 1 1 5E93D662
 P 5050 3900
 AR Path="/5E93474C/5E93D662" Ref="D56"  Part="1" 
@@ -121,7 +120,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D55
+L shadow_box_sk6805-rescue:SK6805_1515-LED D55
 U 1 1 5E93D668
 P 4200 3900
 AR Path="/5E93474C/5E93D668" Ref="D55"  Part="1" 

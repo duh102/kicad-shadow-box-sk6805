@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name shadow_box_sk6805-rescue)(type Legacy)(uri ${KIPRJMOD}/shadow_box_sk6805-rescue.lib)(options "")(descr ""))
+)

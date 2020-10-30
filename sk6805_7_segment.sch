@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:shadow_box_sk6805-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,7 @@ GND
 Text HLabel 7100 5400 2    50   Input ~ 0
 DOUT
 $Comp
-L LED:SK6805_1515 D128
+L shadow_box_sk6805-rescue:SK6805_1515-LED D128
 U 1 1 5E930F89
 P 5950 3150
 AR Path="/5E9304A0/5E930F89" Ref="D128"  Part="1" 
@@ -32,6 +31,7 @@ AR Path="/5E931920/5E930F89" Ref="D88"  Part="1"
 AR Path="/5E931A30/5E930F89" Ref="D68"  Part="1" 
 AR Path="/5E94AF92/5E930F89" Ref="D12"  Part="1" 
 AR Path="/5E94AF98/5E930F89" Ref="D32"  Part="1" 
+AR Path="/5E930F89" Ref="D128"  Part="1" 
 F 0 "D128" H 6294 3196 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 3105 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 2850 50  0001 L TNN
@@ -40,7 +40,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D127
+L shadow_box_sk6805-rescue:SK6805_1515-LED D127
 U 1 1 5E930F8F
 P 5300 3150
 AR Path="/5E9304A0/5E930F8F" Ref="D127"  Part="1" 
@@ -49,6 +49,7 @@ AR Path="/5E931920/5E930F8F" Ref="D87"  Part="1"
 AR Path="/5E931A30/5E930F8F" Ref="D67"  Part="1" 
 AR Path="/5E94AF92/5E930F8F" Ref="D11"  Part="1" 
 AR Path="/5E94AF98/5E930F8F" Ref="D31"  Part="1" 
+AR Path="/5E930F8F" Ref="D127"  Part="1" 
 F 0 "D127" H 5644 3196 50  0000 L CNN
 F 1 "SK6805_1515" H 5644 3105 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 5350 2850 50  0001 L TNN
@@ -57,7 +58,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D126
+L shadow_box_sk6805-rescue:SK6805_1515-LED D126
 U 1 1 5E930F95
 P 4650 3150
 AR Path="/5E9304A0/5E930F95" Ref="D126"  Part="1" 
@@ -66,6 +67,7 @@ AR Path="/5E931920/5E930F95" Ref="D86"  Part="1"
 AR Path="/5E931A30/5E930F95" Ref="D66"  Part="1" 
 AR Path="/5E94AF92/5E930F95" Ref="D10"  Part="1" 
 AR Path="/5E94AF98/5E930F95" Ref="D30"  Part="1" 
+AR Path="/5E930F95" Ref="D126"  Part="1" 
 F 0 "D126" H 4994 3196 50  0000 L CNN
 F 1 "SK6805_1515" H 4994 3105 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4700 2850 50  0001 L TNN
@@ -74,7 +76,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D125
+L shadow_box_sk6805-rescue:SK6805_1515-LED D125
 U 1 1 5E930F9B
 P 4000 3150
 AR Path="/5E9304A0/5E930F9B" Ref="D125"  Part="1" 
@@ -83,6 +85,7 @@ AR Path="/5E931920/5E930F9B" Ref="D85"  Part="1"
 AR Path="/5E931A30/5E930F9B" Ref="D65"  Part="1" 
 AR Path="/5E94AF92/5E930F9B" Ref="D9"  Part="1" 
 AR Path="/5E94AF98/5E930F9B" Ref="D29"  Part="1" 
+AR Path="/5E930F9B" Ref="D125"  Part="1" 
 F 0 "D125" H 4344 3196 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 3105 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 2850 50  0001 L TNN
@@ -91,7 +94,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D123
+L shadow_box_sk6805-rescue:SK6805_1515-LED D123
 U 1 1 5E945F60
 P 4000 2400
 AR Path="/5E9304A0/5E945F60" Ref="D123"  Part="1" 
@@ -100,6 +103,7 @@ AR Path="/5E931920/5E945F60" Ref="D83"  Part="1"
 AR Path="/5E931A30/5E945F60" Ref="D63"  Part="1" 
 AR Path="/5E94AF92/5E945F60" Ref="D7"  Part="1" 
 AR Path="/5E94AF98/5E945F60" Ref="D27"  Part="1" 
+AR Path="/5E945F60" Ref="D123"  Part="1" 
 F 0 "D123" H 4344 2446 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 2355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 2100 50  0001 L TNN
@@ -108,7 +112,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D124
+L shadow_box_sk6805-rescue:SK6805_1515-LED D124
 U 1 1 5E945F66
 P 5950 2400
 AR Path="/5E9304A0/5E945F66" Ref="D124"  Part="1" 
@@ -117,6 +121,7 @@ AR Path="/5E931920/5E945F66" Ref="D84"  Part="1"
 AR Path="/5E931A30/5E945F66" Ref="D64"  Part="1" 
 AR Path="/5E94AF92/5E945F66" Ref="D8"  Part="1" 
 AR Path="/5E94AF98/5E945F66" Ref="D28"  Part="1" 
+AR Path="/5E945F66" Ref="D124"  Part="1" 
 F 0 "D124" H 6294 2446 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 2355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 2100 50  0001 L TNN
@@ -125,7 +130,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D130
+L shadow_box_sk6805-rescue:SK6805_1515-LED D130
 U 1 1 5E935980
 P 5950 3900
 AR Path="/5E9304A0/5E935980" Ref="D130"  Part="1" 
@@ -134,6 +139,7 @@ AR Path="/5E931920/5E935980" Ref="D90"  Part="1"
 AR Path="/5E931A30/5E935980" Ref="D70"  Part="1" 
 AR Path="/5E94AF92/5E935980" Ref="D14"  Part="1" 
 AR Path="/5E94AF98/5E935980" Ref="D34"  Part="1" 
+AR Path="/5E935980" Ref="D130"  Part="1" 
 F 0 "D130" H 6294 3946 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 3855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 3600 50  0001 L TNN
@@ -142,7 +148,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D129
+L shadow_box_sk6805-rescue:SK6805_1515-LED D129
 U 1 1 5E934F6A
 P 4000 3900
 AR Path="/5E9304A0/5E934F6A" Ref="D129"  Part="1" 
@@ -151,6 +157,7 @@ AR Path="/5E931920/5E934F6A" Ref="D89"  Part="1"
 AR Path="/5E931A30/5E934F6A" Ref="D69"  Part="1" 
 AR Path="/5E94AF92/5E934F6A" Ref="D13"  Part="1" 
 AR Path="/5E94AF98/5E934F6A" Ref="D33"  Part="1" 
+AR Path="/5E934F6A" Ref="D129"  Part="1" 
 F 0 "D129" H 4344 3946 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 3855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 3600 50  0001 L TNN
@@ -159,7 +166,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D136
+L shadow_box_sk6805-rescue:SK6805_1515-LED D136
 U 1 1 5E932DC7
 P 5950 5400
 AR Path="/5E9304A0/5E932DC7" Ref="D136"  Part="1" 
@@ -168,6 +175,7 @@ AR Path="/5E931920/5E932DC7" Ref="D96"  Part="1"
 AR Path="/5E931A30/5E932DC7" Ref="D76"  Part="1" 
 AR Path="/5E94AF92/5E932DC7" Ref="D20"  Part="1" 
 AR Path="/5E94AF98/5E932DC7" Ref="D40"  Part="1" 
+AR Path="/5E932DC7" Ref="D136"  Part="1" 
 F 0 "D136" H 6294 5446 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 5355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 5100 50  0001 L TNN
@@ -176,7 +184,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D135
+L shadow_box_sk6805-rescue:SK6805_1515-LED D135
 U 1 1 5E932DC1
 P 5300 5400
 AR Path="/5E9304A0/5E932DC1" Ref="D135"  Part="1" 
@@ -185,6 +193,7 @@ AR Path="/5E931920/5E932DC1" Ref="D95"  Part="1"
 AR Path="/5E931A30/5E932DC1" Ref="D75"  Part="1" 
 AR Path="/5E94AF92/5E932DC1" Ref="D19"  Part="1" 
 AR Path="/5E94AF98/5E932DC1" Ref="D39"  Part="1" 
+AR Path="/5E932DC1" Ref="D135"  Part="1" 
 F 0 "D135" H 5644 5446 50  0000 L CNN
 F 1 "SK6805_1515" H 5644 5355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 5350 5100 50  0001 L TNN
@@ -193,7 +202,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D134
+L shadow_box_sk6805-rescue:SK6805_1515-LED D134
 U 1 1 5E932DBB
 P 4650 5400
 AR Path="/5E9304A0/5E932DBB" Ref="D134"  Part="1" 
@@ -202,6 +211,7 @@ AR Path="/5E931920/5E932DBB" Ref="D94"  Part="1"
 AR Path="/5E931A30/5E932DBB" Ref="D74"  Part="1" 
 AR Path="/5E94AF92/5E932DBB" Ref="D18"  Part="1" 
 AR Path="/5E94AF98/5E932DBB" Ref="D38"  Part="1" 
+AR Path="/5E932DBB" Ref="D134"  Part="1" 
 F 0 "D134" H 4994 5446 50  0000 L CNN
 F 1 "SK6805_1515" H 4994 5355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4700 5100 50  0001 L TNN
@@ -210,7 +220,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D133
+L shadow_box_sk6805-rescue:SK6805_1515-LED D133
 U 1 1 5E932DB5
 P 4000 5400
 AR Path="/5E9304A0/5E932DB5" Ref="D133"  Part="1" 
@@ -219,6 +229,7 @@ AR Path="/5E931920/5E932DB5" Ref="D93"  Part="1"
 AR Path="/5E931A30/5E932DB5" Ref="D73"  Part="1" 
 AR Path="/5E94AF92/5E932DB5" Ref="D17"  Part="1" 
 AR Path="/5E94AF98/5E932DB5" Ref="D37"  Part="1" 
+AR Path="/5E932DB5" Ref="D133"  Part="1" 
 F 0 "D133" H 4344 5446 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 5355 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 5100 50  0001 L TNN
@@ -227,7 +238,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D131
+L shadow_box_sk6805-rescue:SK6805_1515-LED D131
 U 1 1 5E94B9F8
 P 4000 4650
 AR Path="/5E9304A0/5E94B9F8" Ref="D131"  Part="1" 
@@ -236,6 +247,7 @@ AR Path="/5E931920/5E94B9F8" Ref="D91"  Part="1"
 AR Path="/5E931A30/5E94B9F8" Ref="D71"  Part="1" 
 AR Path="/5E94AF92/5E94B9F8" Ref="D15"  Part="1" 
 AR Path="/5E94AF98/5E94B9F8" Ref="D35"  Part="1" 
+AR Path="/5E94B9F8" Ref="D131"  Part="1" 
 F 0 "D131" H 4344 4696 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 4605 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 4350 50  0001 L TNN
@@ -244,7 +256,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D132
+L shadow_box_sk6805-rescue:SK6805_1515-LED D132
 U 1 1 5E94B9FE
 P 5950 4650
 AR Path="/5E9304A0/5E94B9FE" Ref="D132"  Part="1" 
@@ -253,6 +265,7 @@ AR Path="/5E931920/5E94B9FE" Ref="D92"  Part="1"
 AR Path="/5E931A30/5E94B9FE" Ref="D72"  Part="1" 
 AR Path="/5E94AF92/5E94B9FE" Ref="D16"  Part="1" 
 AR Path="/5E94AF98/5E94B9FE" Ref="D36"  Part="1" 
+AR Path="/5E94B9FE" Ref="D132"  Part="1" 
 F 0 "D132" H 6294 4696 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 4605 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 4350 50  0001 L TNN
@@ -265,7 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1300 3200 1300
 $Comp
-L LED:SK6805_1515 D120
+L shadow_box_sk6805-rescue:SK6805_1515-LED D120
 U 1 1 5E92B065
 P 5950 900
 AR Path="/5E9304A0/5E92B065" Ref="D120"  Part="1" 
@@ -274,6 +287,7 @@ AR Path="/5E931920/5E92B065" Ref="D80"  Part="1"
 AR Path="/5E931A30/5E92B065" Ref="D60"  Part="1" 
 AR Path="/5E94AF92/5E92B065" Ref="D4"  Part="1" 
 AR Path="/5E94AF98/5E92B065" Ref="D24"  Part="1" 
+AR Path="/5E92B065" Ref="D120"  Part="1" 
 F 0 "D120" H 6294 946 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 600 50  0001 L TNN
@@ -282,7 +296,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D119
+L shadow_box_sk6805-rescue:SK6805_1515-LED D119
 U 1 1 5E92B05F
 P 5300 900
 AR Path="/5E9304A0/5E92B05F" Ref="D119"  Part="1" 
@@ -291,6 +305,7 @@ AR Path="/5E931920/5E92B05F" Ref="D79"  Part="1"
 AR Path="/5E931A30/5E92B05F" Ref="D59"  Part="1" 
 AR Path="/5E94AF92/5E92B05F" Ref="D3"  Part="1" 
 AR Path="/5E94AF98/5E92B05F" Ref="D23"  Part="1" 
+AR Path="/5E92B05F" Ref="D119"  Part="1" 
 F 0 "D119" H 5644 946 50  0000 L CNN
 F 1 "SK6805_1515" H 5644 855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 5350 600 50  0001 L TNN
@@ -299,7 +314,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D118
+L shadow_box_sk6805-rescue:SK6805_1515-LED D118
 U 1 1 5E9293AD
 P 4650 900
 AR Path="/5E9304A0/5E9293AD" Ref="D118"  Part="1" 
@@ -308,6 +323,7 @@ AR Path="/5E931920/5E9293AD" Ref="D78"  Part="1"
 AR Path="/5E931A30/5E9293AD" Ref="D58"  Part="1" 
 AR Path="/5E94AF92/5E9293AD" Ref="D2"  Part="1" 
 AR Path="/5E94AF98/5E9293AD" Ref="D22"  Part="1" 
+AR Path="/5E9293AD" Ref="D118"  Part="1" 
 F 0 "D118" H 4994 946 50  0000 L CNN
 F 1 "SK6805_1515" H 4994 855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4700 600 50  0001 L TNN
@@ -316,7 +332,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6805_1515 D117
+L shadow_box_sk6805-rescue:SK6805_1515-LED D117
 U 1 1 5E9275F2
 P 4000 900
 AR Path="/5E9304A0/5E9275F2" Ref="D117"  Part="1" 
@@ -325,6 +341,7 @@ AR Path="/5E931920/5E9275F2" Ref="D77"  Part="1"
 AR Path="/5E931A30/5E9275F2" Ref="D57"  Part="1" 
 AR Path="/5E94AF92/5E9275F2" Ref="D1"  Part="1" 
 AR Path="/5E94AF98/5E9275F2" Ref="D21"  Part="1" 
+AR Path="/5E9275F2" Ref="D117"  Part="1" 
 F 0 "D117" H 4344 946 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 855 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 600 50  0001 L TNN
@@ -335,7 +352,7 @@ $EndComp
 Wire Wire Line
 	5650 4650 4300 4650
 $Comp
-L LED:SK6805_1515 D121
+L shadow_box_sk6805-rescue:SK6805_1515-LED D121
 U 1 1 5E934665
 P 4000 1650
 AR Path="/5E9304A0/5E934665" Ref="D121"  Part="1" 
@@ -344,6 +361,7 @@ AR Path="/5E931920/5E934665" Ref="D81"  Part="1"
 AR Path="/5E931A30/5E934665" Ref="D61"  Part="1" 
 AR Path="/5E94AF92/5E934665" Ref="D5"  Part="1" 
 AR Path="/5E94AF98/5E934665" Ref="D25"  Part="1" 
+AR Path="/5E934665" Ref="D121"  Part="1" 
 F 0 "D121" H 4344 1696 50  0000 L CNN
 F 1 "SK6805_1515" H 4344 1605 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 4050 1350 50  0001 L TNN
@@ -352,7 +370,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/4492/4492_SK6805-1515_LED_Datas
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:SK6805_1515 D122
+L shadow_box_sk6805-rescue:SK6805_1515-LED D122
 U 1 1 5E934084
 P 5950 1650
 AR Path="/5E9304A0/5E934084" Ref="D122"  Part="1" 
@@ -361,6 +379,7 @@ AR Path="/5E931920/5E934084" Ref="D82"  Part="1"
 AR Path="/5E931A30/5E934084" Ref="D62"  Part="1" 
 AR Path="/5E94AF92/5E934084" Ref="D6"  Part="1" 
 AR Path="/5E94AF98/5E934084" Ref="D26"  Part="1" 
+AR Path="/5E934084" Ref="D122"  Part="1" 
 F 0 "D122" H 6294 1696 50  0000 L CNN
 F 1 "SK6805_1515" H 6294 1605 50  0000 L CNN
 F 2 "LED_SMD:LED_SK6805_PLCC4_1.5x1.5mm_P0.65mm" H 6000 1350 50  0001 L TNN
